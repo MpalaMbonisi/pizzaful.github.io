@@ -104,8 +104,9 @@ html{
 }
 
 .hero img{
+    padding-top: 10vh;
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     filter: brightness(60%);
 }
 
@@ -511,6 +512,10 @@ input[type=email]:focus, input[type=text]:focus, textarea:focus{
     .hero-text {
         top: 40%;
         left: 35%;
+    }
+
+    .hero img{
+        height: 80vh;
     }
 
     .hero{

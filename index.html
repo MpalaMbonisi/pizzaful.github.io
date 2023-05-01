@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Kit -->
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/510b17dd86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Pizzaful - Best Italian Pizza in Poland</title>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="mobile-menu">
+
+            <div class="pizzalogo"><a href="#index">pizza<span>ful</span></a>
+            </div>
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+                <span>MENU</span>
+            </div>
+        </nav>
+        <div class="mobile-dropdown">
+            <ul>
+                <li><a href="index.html" class="active-link" onclick="closeMobileMenu()">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+                <li><a href="contact.html" onclick="closeMobileMenu()">Contact</a></li>
+            </ul>
+        </div>
+        <nav class="menu">
+            <div class="pizzalogo"><a href="#banner">pizza<span>ful</span></a></div>
+            <div class="menu-link">
+                <a href="index.html" class="active-link">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="#about">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="slide-show">
+            <div class="mySlides banner">
+                <div>
+                    <h1>Delicious Italian Pizza</h1>
+                    <p>We are passionate about creating delicious, <br> high-quality pizzas that are made from the freshest ingredients.</p>
+                </div>
+            </div>
+            <div class="mySlides hero">
+                <img src="assets/restuarant3.jpg" alt="pizza-image">
+                <div class="hero-text">
+                    <h1>Delicious Italian Pizza</h1>
+                    <p>We are passionate about creating delicious, <br> high-quality pizzas that are made from the freshest ingredients.</p>
+                </div>
+            </div>
+            <div class="mySlides hero">
+                <img src="assets/slide.jpg" alt="pizza-image">
+                <div class="hero-text">
+                    <h1>Delicious Italian Pizza</h1>
+                    <p>We are passionate about creating delicious, <br> high-quality pizzas that are made from the freshest ingredients.</p>
+                </div>
+            </div>
+            
+        </section>
+        
+        <div class="slide">
+            <i class="fa-solid fa-circle active" id="slideBtn1" onclick="currentDiv(1)"></i></i>
+            <i class="fa-solid fa-circle not-active" id="slideBtn2" onclick="currentDiv(2)"></i></i>
+            <i class="fa-solid fa-circle not-active" id="slideBtn3" onclick="currentDiv(3)"></i></i>
+        </div>
+
+        <!-- contact section -->
+        <section class="contact-section">
+            <div class="contact-grid">
+                <div>
+                    <div class="contact-block">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>+48 (733) 229 600</h4>
+                    </div>
+                    <div class="contact-info">
+                        24/7 call service
+                    </div>
+                </div>
+                <div>
+                    <div class="contact-block">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>ul. 198 Orchtear</h4>
+                    </div>
+                    <div class="contact-info">
+                        02-733, <br>Warszawa, Polski
+                    </div>
+                </div>
+                <div>
+                    <div class="contact-block">
+                        <i class="fa-regular fa-clock"></i>
+                        <h4>Open Monday-Friday</h4>
+                    </div>
+                    <div class="contact-info">
+                        8:00 - 22:00
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-media-section">
+            <a href="https://twitter.com/i/flow/signup"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://pl-pl.facebook.com/PendolinoItalianPizza/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/explore/tags/italianpizza/?hl=pl"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/favfamilyrecipz/italian-recipes/"><i class="fa-brands fa-pinterest"></i></a>
+        </section>
+
+        <!-- contact section -->
+        
+        <!-- welcome section -->
+        <section class="welcome-section" id="about">
+            <img src="assets/restaurant.jpg" alt="restuarant-picture">
+            <div>
+                <h1>Welcome to Heaven on Earth <br>Pizza<span>ful</span></h1>
+                <p>
+                    In the heart of Naples, there was a small pizza place called Pizzaful. It was run by a family who had been making pizza for generations. Their secret was the homemade dough, which was crispy and light, with just the right amount of chewiness. The toppings were fresh and flavorful, from the sweet San Marzano tomatoes to the creamy mozzarella cheese. Pizzaful had a cozy atmosphere, with red and white checkered tablecloths and photos of famous Italian chefs on the walls. 
+                </p>
+            </div>
+        </section>
+
+        <!-- welcome section -->
+        
+        <!-- services section -->
+
+        <section class="service-section">
+            <h1>our services</h1>
+            <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+            <div class="services-grid">
+                <div class="service-block">
+                    <img src="assets/healthy-drink(1).png" alt="Healthy-food">
+                    <h4>Healthy Food</h4>
+                    <p>Nutritious and wholesome meals that promote good health.</p>
+                </div>
+                <div class="service-block">
+                    <img src="assets/fast-delivery.png" alt="Delivery-man">
+                    <h4>Fast Delivery</h4>
+                    <p>Prompt and efficient service that delivers your order quickly.</p>
+                </div>
+                <div class="service-block">
+                    <img src="assets/pizza.png" alt="Pizza-image">
+                    <h4>Exotic Recipes</h4>
+                    <p>A carefully curated selection of the most delicious and popular dishes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- services section -->
+        
+        <!-- menu section -->
+
+        <section class="menu-section">
+            <h1>popular pizzaful pizzas</h1>
+            <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+            <div class="two-col-grid">
+                <div class="pizza-block">
+                    <img src="assets/pizza-01.jpeg" alt="pizza-image">
+                    <div class="pizza-info">
+                        <div>
+                            <h4>Domowa pizza</h4>
+                            <p>spicy pepperoni slices baked to perfection on a thin and crispy crust.</p>
+                        </div>
+                        <h5>100.00zł</h5>
+                    </div>
+                </div>
+                <div class="pizza-block">
+                    <img src="assets/pizza-02.jpeg" alt="pizza-image">
+                    <div class="pizza-info">
+                        <div>
+                            <h4>Greek pizza balcon</h4>
+                            <p>sprinkle of herbs, all baked to perfection on a crispy crust.</p>
+                        </div>
+                        <h5>120.00zł</h5>
+                    </div>
+                </div>
+                <div class="pizza-block">
+                    <img src="assets/pizza-03.jpg" alt="pizza-image">
+                    <div class="pizza-info">
+                        <div>
+                            <h4>Margherita Pizza</h4>
+                            <p>topped with tomato sauce, fresh mozzarella cheese, and basil leaves.</p>
+                        </div>
+                        <h5>50.00zł</h5>
+                    </div>
+                </div>
+                <div class="pizza-block">
+                    <img src="assets/pizza-04.jpg" alt="pizza-image">
+                    <div class="pizza-info">
+                        <div>
+                            <h4>Pepperoni Pizza</h4>
+                            <p>an American-style pizza with tomato sauce, mozzarella cheese, and spicy pepperoni slices on top.</p>
+                        </div>
+                        <h5>200.00zł</h5>
+                    </div>
+                </div>
+                <div class="pizza-block">
+                    <img src="assets/pizza-05.jpg" alt="pizza-image">
+                    <div class="pizza-info">
+                        <div>
+                            <h4>Hawaiian Pizza</h4>
+                            <p>tomato sauce, mozzarella cheese, ham, and pineapple.</p>
+                        </div>
+                        <h5>90.00zł</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- menu section -->
+
+        <!-- gallery section -->
+
+        <section class="gallery-section">
+            <h1>Gallery</h1>
+            <h3>Check out some of our <b>pizzaful</b> moments</h3>
+
+            <div class="gallery-grid">
+                <img src="assets/restuarant2.jpg" alt="restuarant-picture">
+                
+                <img src="assets/restuarant3.jpg" alt="restuarant-picture">
+                
+                <img src="assets/restuarant4.jpg" alt="restuarant-picture">
+                
+                <img src="assets/restuarant5.jpg" alt="restuarant-picture">
+            </div>
+                
+        </section>
+
+        <!-- gallery section -->
+
+        
+    </main>
+    
+    <footer>
+        <!-- contact section -->
+        <section class="contact-footer">
+            <div style="width: 100%" class="map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Warszawa+(Pizzaful)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe></div>
+    
+            <div class="contact-us-block">
+                <h4>Contact Us</h4>
+                <input type="text" placeholder="Your Name...">
+                <input type="email" placeholder="Your Email...">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write your message..."></textarea>
+                <button class="send-btn">Send</button>             
+            </div>
+            <div class="contact-us-block">
+                <h4 class="padding-to-text">About Us</h4>
+                <p>In the heart of Naples, there was a small pizza place called Pizzaful. It was run by a family who had been making pizza for generations.</p>
+            </div>
+            <div class="contact-us-block">
+                <h4>Have Any Questions?</h4>
+                <div class="social-media">
+                    <a href="https://twitter.com/i/flow/signup"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://pl-pl.facebook.com/PendolinoItalianPizza/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/explore/tags/italianpizza/?hl=pl"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/favfamilyrecipz/italian-recipes/"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- contact section -->
+
+        <!-- footer section -->
+        <section class="footer-section">
+            Copyright ©2023 All rights reserved | Crafted by <br> <span>MBONISI MPALA.....</span>
+        </section>
+
+        <!-- footer section -->
+
+    </footer>
+</body>
+</html>

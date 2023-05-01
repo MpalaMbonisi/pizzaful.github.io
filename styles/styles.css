@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;  
+    color: #fff;  
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i, button{
+    cursor: pointer;
+}
+
+button{
+    border: none;
+}
+
+body{
+    background-color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+

@@ -431,6 +431,10 @@ html{
     margin-top: 5%;
 }
 
+.map{
+    height: 40vh;
+}
+
 .contact-us-block{
     width: 80%;
     margin: auto 10%;
@@ -638,6 +642,9 @@ input[type=email]:focus, input[type=text]:focus, textarea:focus{
     }
     .padding-to-text{
         padding-top: 10%;
+    }
+    .map{
+        height: 100%;
     }
     .footer-section{
         font-size: .9rem;

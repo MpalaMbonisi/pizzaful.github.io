@@ -1,22 +1,46 @@
-# pizzaful.github.io
-Pizzaful is a project I designed for a pizza restuarant.
+## Pizzaful
 
-Please create a website for a restaurant (using HTML and CSS) that consists of:
+**Pizzaful** is a web project designed for a pizza restaurant. The website showcases the restaurant’s offerings and provides essential information for customers.
 
-Home page: This page should contain a slideshow of images depicting the food, drinks, and atmosphere of the restaurant.
+---
 
-Menu Page: This page should contain the restaurant menu with different sections for starters, main courses, desserts and drinks. Each menu item should have a short description and price.
+### Project Overview
 
-Contact Page: This page should include the restaurant's contact information, such as its address, phone number, email address, and social media accounts. It should also include a map with the location of the restaurant marked.
+This project involves creating a multi-page website for a restaurant, featuring:
 
-Your website should be visually appealing and easy to navigate.
+- **Home Page**: A slideshow of images depicting the food, drinks, and atmosphere of the restaurant.
+- **Menu Page**: A detailed menu with sections for starters, main courses, desserts, and drinks. Each menu item includes a short description and price.
+- **Contact Page**: The restaurant’s contact information, including address, phone number, email address, social media accounts, and a map showing the restaurant's location.
 
-Additional task for volunteers (not mandatory, you can receive an additional 0.5 points):
-Once your site is complete, publish it to a free hosting platform like GitHub Pages, Netlify or Firebase for others to see.
-Classification criteria Your site will be assessed against the following criteria:
-Completeness: All pages are present and functional and meet the requirements listed above.
-Visual Design: Your site should be visually appealing and well-designed with appropriate use of CSS styles.
-Usability: Your website should be easy to navigate and use, with clear and concise content.
-Please send screenhots and files.
-Good luck with the task!
+---
+
+### Pages Breakdown
+
+1. **Home Page**
+    - **Slideshow**: Showcases images of the restaurant's food, drinks, and ambiance.
+  
+2. **Menu Page**
+    - **Menu Sections**: Divided into starters, main courses, desserts, and drinks.
+    - **Details**: Each item includes a brief description and price.
+  
+3. **Contact Page**
+    - **Contact Information**: Displays the restaurant’s address, phone number, and email.
+    - **Map**: Embedded map marking the restaurant’s location.
+    - **Social Media**: Links to the restaurant's social media profiles.
+
+---
+
+### Design and Usability
+
+- **Visual Appeal**: The website is designed to be visually attractive, using CSS for styling and layout.
+- **Ease of Navigation**: The site structure ensures users can easily find the information they need.
+- **Responsiveness**: The site is responsive, providing an optimal viewing experience across a range of devices.
+
+---
+
+### Technologies Used
+
+- **HTML5**: For the semantic structure of the website.
+- **CSS**: For efficient and organized styling.
+- **JavaScript**: For interactivity and dynamic content.
 
